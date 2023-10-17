@@ -1,0 +1,17 @@
+
+package day.pkg9.rahmatia;
+
+
+public class Day9Rahmatia {
+
+   
+    public static void main(String[] args) {
+       int a = 0, b = 1;
+       for (int i = 1; b < 100; i++) {
+           System.out.println(b);
+           a = b;
+           b = a + b;
+       }
+    }
+    
+}
