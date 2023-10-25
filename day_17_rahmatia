@@ -1,0 +1,27 @@
+package com.mycompany.day17_rahmatia;
+
+import java.util.Scanner;
+
+
+public class Day17_rahmatia {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("sisi pertama: ");
+        double sisi1 = input.nextDouble();
+
+        System.out.print("sisi kedua: ");
+        double sisi2 = input.nextDouble();
+
+        System.out.print("sisi ketiga: ");
+        double sisi3 = input.nextDouble();
+
+        // Menghitung keliling segitiga
+        double keliling = sisi1 + sisi2 + sisi3;
+
+        System.out.println("Keliling segitiga adalah: " + keliling);
+
+        input.close();
+    }
+}
